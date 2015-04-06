@@ -1,0 +1,19 @@
+Danish Iqbal
+CS261 - Assignment 7 Questions
+
+
+1. How is the graph stored in the provided code -- adjacency matrix or edge list?
+    As an edge list
+2. Which of the graphs are connected? How can you tell?
+    A graph is connected if there is a path from each vertex to every other vertex. In this case graph 3 is connected as it has 26 vertices
+3. Imagine that we ran each search in the other direction (from destination to source, instead of source to
+destination) -- would the output change at all? What if the graphs were directed graphs?
+    There would be no change in output since we have an undirected graph. If the graph were directed there would be a change in output.
+4. What are a few pros and cons of DFS vs. BFS?
+    + BFS is like ink, it will find a path
+    + BFS will not get stuck in an infiting path
+    - BFS may take a long time to find a solution since it goes through each vertex
+    + DFS can find the solution faster if it doesn't get stuck
+    - DFS may get stuck in an infinite path or may have to reverse itself for a while if it gets stuck in teh wrong path
+5. What's the Big O execution time to determine if a node is reachable from another node?
+    O(E+V)
